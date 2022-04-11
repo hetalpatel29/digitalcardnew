@@ -1,0 +1,848 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+font-family: 'Open Sans', sans-serif;
+    
+}
+h3{
+    font-size: 30px;
+    font-weight: 600;
+    color: #292a2c;
+    line-height: 1.5;
+    text-align: left;
+}
+.col-6{
+    width: 50%;
+    float: left;
+}
+.col-4{
+    width: 33.33%;
+    float: left;
+}
+
+.container{
+    width: 550px;
+    overflow: auto;
+    margin: auto;
+    margin-top: 50px;
+    box-sizing: border-box;
+    position: relative;
+    
+}
+.container-fluid{
+    width: 100%;
+    overflow: auto;
+}
+.row{
+    clear: both;
+}
+
+/* heading section start */
+.heading{
+padding: 50px 30px 150px 10px;
+background-color: #3c3d41;
+text-align: center;
+box-sizing: border-box;
+margin: 15px 15px 0px 15px;
+}
+.logo{
+    width: 170px;
+    height: 60px;
+    border: 10px solid #d1b54b;
+    margin: auto;
+    background-color: #ffffff;
+}
+.logo img{
+    width: 170px;
+    height: 60px;
+}
+.headingline{
+    width: 100px;
+    height: 2px;
+    background-color: #d1b54b;
+    margin: auto;
+}
+.heading h1{
+    margin: 10px 0px;
+    color: #f8ffff;
+    letter-spacing: 5px;
+    font-weight: 500;
+    font-size: 30px;
+}
+.heading p{
+    color: #f8ffff;
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 20px;
+
+}
+/* heading section end */
+/* information bar section */
+.information{
+    margin: auto;
+    height: 780px;
+    box-sizing: border-box;
+    border: 1px solid rgb(247, 241, 241);
+    box-shadow: 0px 6px 20px     rgb(218, 213, 213);
+    padding: 50px 0px 50px 0px;
+    margin: 0px 15px 15px 15px;
+    transform-style: preserve-3d;
+    }
+    .yellowtrape{
+        width: 100%;
+        height: 30px;
+        background-color: #d1b54b;
+        position: relative;
+        top: -50px;
+
+    }
+    .blacktrape{
+        width: 300px;
+        height: 120px;
+        margin: auto;
+        background-color: #3c3d41;
+        position: relative;
+        top: -110px;
+        border-radius: 0 0 40px 40px;
+        transform: perspective(350px) rotateX(-65deg);
+        box-shadow: 0 22px 18px 0 #dbdbe8;
+    }
+    .yellowtrapeverticle{
+        width: 40px;
+        height: 400px;
+        background-color: #d1b54b;
+        box-shadow: 0 22px 18px 0 #dbdbe8;
+        border-radius: 0 40px 40px 0;
+        transform: perspective(350px) rotatey(25deg);
+        position: relative;
+        top: -90px;
+
+
+    }
+    .yellowtrapeverticleright{
+        width: 40px;
+        height: 400px;
+        background-color: #d1b54b;
+        box-shadow: 0 22px 18px 0 #dbdbe8;
+        border-radius: 40px 0px 0px 40px;
+        transform: perspective(350px) rotatey(-25deg);
+        position: relative;
+        top: -488px;
+        right: -479px;
+
+
+    }
+    .informationmaindiv{
+        position: relative;
+        top: -850px;
+    }
+.informationdiv{
+    text-align: center;
+}
+.infoline{
+    width: 150px;
+    margin: auto;
+    height: 2px;
+    background-color: #d1b54b;
+}
+.infologo{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: auto;
+    background-color: #d1b54b;
+    position: relative;
+    top: -20px;
+    text-align: center;
+}
+.infologo i{
+    color:#ffffff;
+    vertical-align: middle;
+    line-height: 40px;
+}
+.informationdiv p{
+    font-weight:500;
+    font-size: 20px;
+    margin: 40px 0px;
+}
+.contact{
+    margin: auto;
+    margin-bottom: 20px;
+}
+.contactno{
+    border-radius: 5px;
+    margin: 10px 20px;
+    overflow: auto;
+}
+.contactno input{
+    border: none;
+    box-sizing: border-box;
+    width: 225px;
+    padding: 10px;
+    border: 1px solid lightgray;
+font-size: 18px;
+font-weight: 300;
+border-radius: 5px 0px 0px 5px;
+
+    float: left;
+}
+
+.whatsupsbutton{
+    border:none;
+    background-color: #198754;
+    color: #ffffff;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 50%;
+    font-size: 18px;
+font-weight: 100;
+    float: left;
+    border-radius: 0px 5px 5px 0px;
+}
+.addbutton{
+    width:50%;
+    border: 1px solid grey;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+font-weight: 100;
+color: grey;
+float: left;
+
+}
+.socialmediasection{
+    overflow: auto;
+    text-align: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    padding-right: 30px;
+    box-sizing: border-box;
+}
+.socialmediasection p{
+    font-size: 18px;
+    font-weight: 400;
+}
+.socialmedia{
+    text-align: right;
+}
+
+.socialmediaicon{
+    width: 30px;
+    border-radius: 50%;
+    float: left;
+    text-align: center;
+    vertical-align:middle;
+    line-height: 30px;
+    margin: 0px 6px;
+}
+.facebookicon{
+    font-size: 30px;
+    color:#4B66A0;
+}
+.instaicon{
+    font-size: 18px;
+    background-color:  #cf3239;
+    color:#ffffff;
+}
+
+/* information bar section end */
+/* about us section start */
+.aboutyellowtrape{
+    width: 100%;
+    height: 30px;
+    background-color: #d1b54b;
+    position: relative;
+    top:1px;
+
+}
+.aboutyellowtrapebottom{
+    width: 100%;
+    height: 30px;
+    background-color: #d1b54b;
+    position: relative;
+    bottom:-30px;
+
+}
+.aboutblacktrape{
+    width: 300px;
+    height: 120px;
+    margin: auto;
+    background-color: #3c3d41;
+    position: relative;
+    top: -59px;
+    border-radius: 0 0 40px 40px;
+    transform: perspective(350px) rotateX(-65deg);
+    box-shadow: 0 22px 18px 0 #dbdbe8;
+}
+.aboutblacktrapebottom{
+    width: 300px;
+    height: 120px;
+    margin: auto;
+    background-color: #3c3d41;
+    position: relative;
+    bottom:68px;
+    border-radius: 0 0 40px 40px;
+    transform: perspective(350px) rotateX(-122deg);
+    box-shadow: 0 22px 18px 0 #dbdbe8;
+}
+.aboutmainbox{
+    width: 90%;
+    margin: auto;
+    position: relative;
+    top: -50px;
+}
+.aboutus{
+    box-sizing: border-box;
+    height: 769px;
+    border: 1px solid rgb(247, 241, 241);
+    box-shadow: 0px 6px 20px     rgb(218, 213, 213);
+    margin: 20px
+    
+}
+.aboutusline{
+    width: 100%;
+    height: 2px;
+    background-color: #d1b54b;
+    margin: 10px 0px 30px 0px;
+}
+.comapanydetails{
+    overflow: auto;
+    text-align: justify;
+}
+.comapanydetails p{
+    font-size: 22px;
+    color:#3c3d41;
+    line-height: 1.5;
+}
+.comapanydetails h4{
+    font-size: 22px;
+    line-height: 1.5;
+}
+
+/* about us section start end */
+/* offer section start */
+.aboutyellowtrape{
+    width: 100%;
+    height: 30px;
+    background-color: #d1b54b;
+    position: relative;
+    top:1px;
+
+}
+.offeryellowtrapebottom{
+    width: 100%;
+    height: 30px;
+    background-color: #d1b54b;
+    position: relative;
+    bottom:0px;
+
+}
+.aboutblacktrape{
+    width: 300px;
+    height: 120px;
+    margin: auto;
+    background-color: #3c3d41;
+    position: relative;
+    top: -59px;
+    border-radius: 0 0 40px 40px;
+    transform: perspective(350px) rotateX(-65deg);
+    box-shadow: 0 22px 18px 0 #dbdbe8;
+}
+.offerblacktrapebottom{
+    width: 300px;
+    height: 120px;
+    margin: auto;
+    background-color: #3c3d41;
+    position: relative;
+    bottom:68px;
+    border-radius: 0 0 40px 40px;
+    transform: perspective(350px) rotateX(-122deg);
+    box-shadow: 0 22px 18px 0 #dbdbe8;
+}
+.offer{
+    overflow: auto;
+    box-sizing: border-box;
+    border: 1px solid rgb(247, 241, 241);
+    box-shadow: 0px 6px 20px     rgb(218, 213, 213);
+    margin: 20px
+}
+.offermainbox{
+    position: relative;
+    top: -100px;
+    padding: 15px;
+}
+.slidersection{
+    width: 80%;
+    overflow: auto;
+    margin: auto;
+
+}
+.slidersection img{
+    width: 100%;
+    height: 300px;
+}
+/* offer section end */
+/* gallery section start */
+.aboutyellowtrape{
+    width: 100%;
+    height: 30px;
+    background-color: #d1b54b;
+    position: relative;
+    top:1px;
+
+}
+.galleryyellowtrapebottom{
+    width: 100%;
+    height: 30px;
+    background-color: #d1b54b;
+    position: relative;
+    bottom:0px;
+
+}
+.aboutblacktrape{
+    width: 300px;
+    height: 120px;
+    margin: auto;
+    background-color: #3c3d41;
+    position: relative;
+    top: -59px;
+    border-radius: 0 0 40px 40px;
+    transform: perspective(350px) rotateX(-65deg);
+    box-shadow: 0 22px 18px 0 #dbdbe8;
+}
+.galleryblacktrapebottom{
+    width: 300px;
+    height: 120px;
+    margin: auto;
+    background-color: #3c3d41;
+    position: relative;
+    bottom:68px;
+    border-radius: 0 0 40px 40px;
+    transform: perspective(350px) rotateX(-122deg);
+    box-shadow: 0 22px 18px 0 #dbdbe8;
+}
+.gallery{
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid rgb(247, 241, 241);
+    box-shadow: 0px 6px 20px     rgb(218, 213, 213);
+    margin: 20px;
+    overflow: auto;
+
+}
+.galleryrow{
+    width: 100%;
+    overflow: auto;
+}
+.gallerymainbox{
+    margin: auto;
+    box-sizing: border-box;
+    position: relative;
+    top: -80px;
+}
+.grallaryimgbox{
+    width:100% ;
+    text-align: center;
+    border: 1px solid rgb(214, 203, 203);
+    border-radius: 5px;
+    padding: 0px 0px 10px 0px;
+    box-shadow: 5px 5px 10px rgb(207, 200, 200);
+    box-sizing: border-box;
+}
+.galleryimgmainbox{
+    box-sizing: border-box;
+    padding: 10px;
+}
+.grallaryimgbox img{
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+}
+.gallerymainbox span{
+    font-size: 20px;
+    color:#292a2c;
+    font-weight: 600;
+}
+.gallery button{
+    padding: 15px;
+border: 1px solid gray;
+color: grey;
+border-radius: 2px;
+font-size: 20px;
+margin-bottom: 30px;
+
+}
+.gallery button a:active{
+    color: #3c3d41;
+    border-color: #3c3d41;
+}
+
+/* gallery section end */
+/* service section start */
+.aboutyellowtrape{
+    width: 100%;
+    height: 30px;
+    background-color: #d1b54b;
+    position: relative;
+    top:1px;
+
+}
+.servicesyellowtrapebottom{
+    width: 100%;
+    height: 30px;
+    background-color: #d1b54b;
+    position: relative;
+    bottom:18px;
+
+}
+.aboutblacktrape{
+    width: 300px;
+    height: 120px;
+    margin: auto;
+    background-color: #3c3d41;
+    position: relative;
+    top: -59px;
+    border-radius: 0 0 40px 40px;
+    transform: perspective(350px) rotateX(-65deg);
+    box-shadow: 0 22px 18px 0 #dbdbe8;
+}
+.servicesblacktrapebottom{
+    width: 300px;
+    height: 120px;
+    margin: auto;
+    background-color: #3c3d41;
+    position: relative;
+    bottom:117px;
+    border-radius: 0 0 40px 40px;
+    transform: perspective(350px) rotateX(-122deg);
+    box-shadow: 0 22px 18px 0 #dbdbe8;
+}
+.services{
+    height: 870px;
+    box-sizing: border-box;
+    border: 1px solid rgb(247, 241, 241);
+    box-shadow: 0px 6px 20px     rgb(218, 213, 213);
+    margin: 20px
+}
+.servicesmainbox{
+    padding: 15px;
+    text-align: center;
+    position: relative;
+    top: -79px;
+
+}
+.serviceimgbox{
+    width: 90%;
+    margin: auto;
+
+}
+.serviceimgbox img{
+    width: 100%;
+    height: 350px;
+}
+.packagerow{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    overflow: hidden;
+    margin-top: 20px;
+
+    
+}
+.packagebox{
+    width: 150px;
+    height: 150px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 5px;
+    margin: 5px;
+    float: left;
+}
+.packageline{
+    width: 80%;
+    height: 3px;
+    margin: auto;
+    color:gray;
+}
+.packagebox h4{
+    color: #292a2c;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: 600
+}
+.packagebox p{
+    color: #292a2c;
+    font-size: 16px;
+    font-weight: 500;
+}
+.packagebox label{
+    color: #292a2c;
+    font-size: 16px;
+    font-weight: 500;
+}
+.services button{
+    background-color: #198754;
+    color: #ffff;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    font-size: 14px;
+}
+.services button i{
+    margin: 5px;
+}
+/* service section end */
+/* account section start */
+.accountsblacktrapebottom{
+    width: 300px;
+    height: 120px;
+    margin: auto;
+    background-color: #3c3d41;
+    position: relative;
+    bottom:140px;
+    border-radius: 0 0 40px 40px;
+    transform: perspective(350px) rotateX(-122deg);
+    box-shadow: 0 22px 18px 0 #dbdbe8;
+}
+.accountyellowtrapebottom{
+    width: 100%;
+    height: 30px;
+    background-color: #d1b54b;
+    position: relative;
+    bottom:42px;
+
+}
+.accountmaindiv{
+    padding: 15px 15px 30px 15px;
+    overflow: auto;
+    position: relative;
+    top: -81px;
+
+}
+.account{
+height: 660px;
+    box-sizing: border-box;
+    border: 1px solid rgb(247, 241, 241);
+    box-shadow: 0px 6px 20px     rgb(218, 213, 213);
+    margin: 20px
+}
+.barcodebox{
+    width: 60%;
+    margin: auto;
+    border: 2px solid slategray;
+    text-align: center;
+    padding: 15px;
+}
+.barcodebox img{
+    width: 100%;
+    height: 300px;
+}
+.barcodebox span{
+    font-size: 20px;
+    color:#3c3d41;
+    font-weight: 600;
+}
+.barcodebox p{
+    font-size: 16px;
+    color: gray;
+}
+/* account section end */
+/* review section start */
+.reviewblacktrapebottom{
+    width: 300px;
+    height: 120px;
+    margin: auto;
+    background-color: #3c3d41;
+    position: relative;
+    bottom:135px;
+    border-radius: 0 0 40px 40px;
+    transform: perspective(350px) rotateX(-122deg);
+    box-shadow: 0 22px 18px 0 #dbdbe8;
+}
+.reviewyellowtrapebottom{
+    width: 100%;
+    height: 30px;
+    background-color: #d1b54b;
+    position: relative;
+    bottom:39px;
+
+}
+.reviewmaindiv{
+    overflow: auto;
+    padding: 15px 15px 40px 15px;
+    position: relative;
+    top: -80px;
+
+}
+.review{
+    box-sizing: border-box;
+    border: 1px solid rgb(247, 241, 241);
+    box-shadow: 0px 6px 20px     rgb(218, 213, 213);
+    margin: 20px;
+    height: 565px;
+}
+.review p{
+    color:#292a2c;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 2;
+}
+.review span{
+    color:#292a2c;
+    font-size: 20px;
+    font-weight: 500;
+}
+.reviewline{
+    width: 100%;
+    height: 10px;
+    color: black;
+}
+.reviewbox{
+    overflow: auto;
+    border: 1px solid gray;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 5px;
+}
+.inputname {
+    width:100%;
+    padding: 10px;
+    margin: 5px 0px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-weight: 500;
+    color:gray;
+
+}
+.inputfeedback{
+    width: 100%;
+    margin: 5px 0px;
+
+    border-radius: 5px;
+    border: 1px solid grey;
+    box-sizing: border-box;
+    padding: 10px 10px 50px 10px;
+    font-size: 18px;
+    font-weight: 500;
+    color:gray;
+}
+.reviewbutton{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid navy;
+    background-color: #efefef;
+    color: blue;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+/* review section end */
+/* registration section start */
+.regblacktrapebottom{
+    width: 300px;
+    height: 120px;
+    margin: auto;
+    background-color: #3c3d41;
+    position: relative;
+    bottom:135px;
+    border-radius: 0 0 40px 40px;
+    transform: perspective(350px) rotateX(-122deg);
+    box-shadow: 0 22px 18px 0 #dbdbe8;
+}
+.regyellowtrapebottom{
+    width: 100%;
+    height: 30px;
+    background-color: #d1b54b;
+    position: relative;
+    bottom:39px;
+
+}
+.registrationmainbox{
+    overflow: auto;
+    padding: 15px 15px 40px 15px;
+box-sizing: border-box;
+position: relative;
+top: -87px;
+
+}
+.registration{
+    height: 559px;
+    box-sizing: border-box;
+    border: 1px solid rgb(247, 241, 241);
+    box-shadow: 0px 6px 20px     rgb(218, 213, 213);
+    margin: 20px 20px 150px 20px;
+}
+.registrationbox{
+    width: 100%;
+padding: 10px;
+    margin: auto;
+    box-sizing: border-box;
+}
+/* registration section end */
+nav{
+    border-top: 1px solid grey;
+    overflow: auto;
+    padding: 0px 50px;
+    bottom: 0px;
+    z-index: 1;
+    background-color: white;
+    position: fixed;
+}
+.footericon a{
+    text-decoration: none;
+}
+.footericon{
+    text-align: center;
+    padding: 20px 100px 50px 60px;
+    float: left;
+
+}
+.footericon i{
+    color: #d1b54b;
+    font-size: 50px;
+}
+.footericon p{
+font-size: 18px;
+    color: #3c3d41;
+}
+
+    
+@media screen and (max-width:769px){
+    .footericon{
+        padding: 20px 20px 20px 10px;
+    
+    }
+    .footericon i{
+        font-size: 35px;
+    }
+    .registration{
+     
+        margin: 20px 20px 103px 20px;
+    }
+    
+}
+@media screen and (max-width:426px){
+    .footericon{
+        padding: 20px 40px 20px 10px;
+    
+    }
+    .footericon i{
+        font-size: 40px;
+    }
+    .registration{
+     
+        margin: 20px 20px 103px 20px;
+    }
+    
+}
